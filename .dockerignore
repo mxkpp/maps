@@ -1,0 +1,9 @@
+# Ignore all dirs except /scripts
+*
+!/scripts
+
+# Ignore some things no matter where they are found
+**/*.env
+**/*.log
+**/.git
+**/__pycache__
